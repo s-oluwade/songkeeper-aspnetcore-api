@@ -5,7 +5,7 @@
 namespace SongKeeper.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -116,7 +116,7 @@ namespace SongKeeper.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Songs",
+                name: "Tracks",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -128,9 +128,9 @@ namespace SongKeeper.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Songs", x => x.Id);
+                    table.PrimaryKey("PK_Tracks", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Songs_Albums_AlbumId",
+                        name: "FK_Tracks_Albums_AlbumId",
                         column: x => x.AlbumId,
                         principalTable: "Albums",
                         principalColumn: "Id",
@@ -153,8 +153,8 @@ namespace SongKeeper.Migrations
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Songs_AlbumId",
-                table: "Songs",
+                name: "IX_Tracks_AlbumId",
+                table: "Tracks",
                 column: "AlbumId");
         }
 
@@ -168,7 +168,7 @@ namespace SongKeeper.Migrations
                 name: "Favorites");
 
             migrationBuilder.DropTable(
-                name: "Songs");
+                name: "Tracks");
 
             migrationBuilder.DropTable(
                 name: "Genres");

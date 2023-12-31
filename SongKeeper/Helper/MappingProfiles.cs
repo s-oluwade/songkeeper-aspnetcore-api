@@ -12,8 +12,8 @@ namespace SongKeeper.Helper
             CreateMap<AlbumDto, Album>();
             CreateMap<Artist, ArtistDto>();
             CreateMap<ArtistDto, Artist>();
-            CreateMap<Song, SongDto>();
-            CreateMap<SongDto, Song>();
+            CreateMap<Track, TrackDto>();
+            CreateMap<Track, Track>();
             CreateMap<Genre, GenreDto>();
             CreateMap<GenreDto, Genre>();
             CreateMap<Favorite, FavoriteDto>();

@@ -11,8 +11,8 @@ using SongKeeper.Data;
 namespace SongKeeper.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20231223054730_Initial")]
-    partial class Initial
+    [Migration("20231231031636_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -121,7 +121,7 @@ namespace SongKeeper.Migrations
                     b.ToTable("Genres");
                 });
 
-            modelBuilder.Entity("SongKeeper.Models.Song", b =>
+            modelBuilder.Entity("SongKeeper.Models.Track", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -147,7 +147,7 @@ namespace SongKeeper.Migrations
 
                     b.HasIndex("AlbumId");
 
-                    b.ToTable("Songs");
+                    b.ToTable("Tracks");
                 });
 
             modelBuilder.Entity("SongKeeper.Models.User", b =>
@@ -212,10 +212,10 @@ namespace SongKeeper.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("SongKeeper.Models.Song", b =>
+            modelBuilder.Entity("SongKeeper.Models.Track", b =>
                 {
                     b.HasOne("SongKeeper.Models.Album", "Album")
-                        .WithMany("Songs")
+                        .WithMany("Tracks")
                         .HasForeignKey("AlbumId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -227,7 +227,7 @@ namespace SongKeeper.Migrations
                 {
                     b.Navigation("AlbumGenres");
 
-                    b.Navigation("Songs");
+                    b.Navigation("Tracks");
                 });
 
             modelBuilder.Entity("SongKeeper.Models.Artist", b =>
