@@ -6,6 +6,8 @@ API Endpoint: https://songkeeperapi.azurewebsites.net/api
 
 ### Create
 
+> POST /artist <code>(Retrieve All Artists)</code>
+
 <details>
   <summary>
     <code>POST</code> <code><b>/artist</b></code> <code>(Retrieve All Artists)</code></summary>
