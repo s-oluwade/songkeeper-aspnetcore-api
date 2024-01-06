@@ -8,50 +8,15 @@ API Endpoint: https://songkeeperapi.azurewebsites.net/api
 
 > POST /artist <code>(Retrieve All Artists)</code>
 
-<details>
-  <summary>
-    <code>POST</code> <code><b>/artist</b></code> <code>(Retrieve All Artists)</code></summary>
-  
-    > https://songkeeperapi.azurewebsites.net/api/artist
+> POST /album <code>(Retrieve All Albums)</code>
 
-    > Attributes (array[Artist])
-</details>
+> POST /genre <code>(Retrieve All Genres)</code>
 
-<details>
-  <summary>
-    <code>POST</code> <code><b>/album</b></code> <code>(Retrieve All Albums)</code></summary>
-    + Response 200 (application/json)
-    + Attributes (array[Album])
-</details>
+> POST /track <code>(Retrieve All Tracks)</code>
 
-<details>
-  <summary>
-    <code>POST</code> <code><b>/genre</b></code> <code>(Retrieve All Genres)</code></summary>
-    + Response 200 (application/json)
-    + Attributes (array[Genre])
-</details>
+> POST /user <code>(Retrieve All Users)</code>
 
-<details>
-  <summary>
-    <code>POST</code> <code><b>/track</b></code> <code>(Retrieve All Tracks)</code></summary>
-    + Response 200 (application/json)
-    + Attributes (array[Track])
-</details>
-
-<details>
-  <summary>
-    <code>POST</code> <code><b>/user</b></code> <code>(Retrieve All Users)</code></summary>
-    + Response 200 (application/json)
-    + Attributes (array[User])
-</details>
-
-<details>
-  <summary>
-    <code>POST</code> <code><b>/favorite</b></code> <code>(Retrieve All Favorites)</code></summary>
-    + Response 200 (application/json)
-    + Attributes (array[Favorite])
-</details>
-
+> POST /favorite <code>(Retrieve All Favorites)</code>
 
 -----------------------------------
 ### Read
