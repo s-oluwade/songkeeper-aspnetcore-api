@@ -11,9 +11,7 @@ API Endpoint: https://songkeeperapi.azurewebsites.net/api
     <code>POST</code> <code><b>/artist</b></code> <code>(Retrieve All Artists)</code></summary>
   
     > https://songkeeperapi.azurewebsites.net/api/artist
-  
-    > Response 200 (application/json)
-    
+
     > Attributes (array[Artist])
 </details>
 
