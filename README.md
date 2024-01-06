@@ -4,7 +4,7 @@ Swagger Doc: https://songkeeperapi.azurewebsites.net/index.html
 
 API Endpoint: https://songkeeperapi.azurewebsites.net/api
 
-### Create
+#### Create
 
 > POST /artist <code>(Retrieve All Artists)</code>
 
@@ -18,47 +18,44 @@ API Endpoint: https://songkeeperapi.azurewebsites.net/api
 
 > POST /favorite <code>(Retrieve All Favorites)</code>
 
------------------------------------
-### Read
+#### Read
 
-<details>
-  <summary>
-    <code>GET</code> <code><b>/artist</b></code> <code>(Retrieve All Artists)</code></summary>
-    + Response 200 (application/json)
-    + Attributes (array[Artist])
-</details>
+> GET /artist <code>(Retrieve All Artists)</code>
 
-<details>
-  <summary>
-    <code>GET</code> <code><b>/album</b></code> <code>(Retrieve All Albums)</code></summary>
-    + Response 200 (application/json)
-    + Attributes (array[Album])
-</details>
+> GET /album <code>(Retrieve All Albums)</code>
 
-<details>
-  <summary>
-    <code>GET</code> <code><b>/genre</b></code> <code>(Retrieve All Genres)</code></summary>
-    + Response 200 (application/json)
-    + Attributes (array[Genre])
-</details>
+> GET /genre <code>(Retrieve All Genres)</code>
 
-<details>
-  <summary>
-    <code>GET</code> <code><b>/track</b></code> <code>(Retrieve All Tracks)</code></summary>
-    + Response 200 (application/json)
-    + Attributes (array[Track])
-</details>
+> GET /track <code>(Retrieve All Tracks)</code>
 
-<details>
-  <summary>
-    <code>GET</code> <code><b>/user</b></code> <code>(Retrieve All Users)</code></summary>
-    + Response 200 (application/json)
-    + Attributes (array[User])
-</details>
+> GET /user <code>(Retrieve All Users)</code>
 
-<details>
-  <summary>
-    <code>GET</code> <code><b>/favorite</b></code> <code>(Retrieve All Favorites)</code></summary>
-    + Response 200 (application/json)
-    + Attributes (array[Favorite])
-</details>
+> GET /favorite <code>(Retrieve All Favorites)</code>
+
+#### Update
+
+> PUT /artist <code>(Retrieve All Artists)</code>
+
+> PUT /album <code>(Retrieve All Albums)</code>
+
+> PUT /genre <code>(Retrieve All Genres)</code>
+
+> PUT /track <code>(Retrieve All Tracks)</code>
+
+> PUT /user <code>(Retrieve All Users)</code>
+
+> PUT /favorite <code>(Retrieve All Favorites)</code>
+
+#### Delete
+
+> DELETE /artist <code>(Retrieve All Artists)</code>
+
+> DELETE /album <code>(Retrieve All Albums)</code>
+
+> DELETE /genre <code>(Retrieve All Genres)</code>
+
+> DELETE /track <code>(Retrieve All Tracks)</code>
+
+> DELETE /user <code>(Retrieve All Users)</code>
+
+> DELETE /favorite <code>(Retrieve All Favorites)</code>
