@@ -1,5 +1,8 @@
 ## API Documentation
 
+Swagger Doc: https://songkeeperapi.azurewebsites.net/index.html
+API Endpoint: https://songkeeperapi.azurewebsites.net/api
+
 ### Create
 
 <details>
