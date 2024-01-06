@@ -21,7 +21,6 @@ API Endpoint: https://songkeeperapi.azurewebsites.net/api
 #### Read
 
 > GET /artist <code>(Retrieve all artists)</code>
-
 > GET /artist <code>(Retrieve one artist)</code>
 
 > GET /artist <code>(Retrieve list of an Artist's Albums)</code>
