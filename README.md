@@ -6,31 +6,35 @@ API Endpoint: https://songkeeperapi.azurewebsites.net/api
 
 #### Create
 
-> POST /artist <code>(Retrieve All Artists)</code>
+> POST /artist <code>(Retrieve all artists)</code>
 
-> POST /album <code>(Retrieve All Albums)</code>
+> POST /album <code>(Retrieve all albums)</code>
 
-> POST /genre <code>(Retrieve All Genres)</code>
+> POST /genre <code>(Retrieve all genres)</code>
 
-> POST /track <code>(Retrieve All Tracks)</code>
+> POST /track <code>(Retrieve all tracks)</code>
 
-> POST /user <code>(Retrieve All Users)</code>
+> POST /user <code>(Retrieve all users)</code>
 
-> POST /favorite <code>(Retrieve All Favorites)</code>
+> POST /favorite <code>(Retrieve all favorites)</code>
 
 #### Read
 
-> GET /artist <code>(Retrieve All Artists)</code>
+> GET /artist <code>(Retrieve all artists)</code>
 
-> GET /album <code>(Retrieve All Albums)</code>
+> GET /artist <code>(Retrieve one artist)</code>
 
-> GET /genre <code>(Retrieve All Genres)</code>
+> GET /artist <code>(Retrieve list of an Artist's Albums)</code>
 
-> GET /track <code>(Retrieve All Tracks)</code>
+> GET /album <code>(Retrieve all albums)</code>
 
-> GET /user <code>(Retrieve All Users)</code>
+> GET /genre <code>(Retrieve all genres)</code>
 
-> GET /favorite <code>(Retrieve All Favorites)</code>
+> GET /track <code>(Retrieve all tracks)</code>
+
+> GET /user <code>(Retrieve all users)</code>
+
+> GET /favorite <code>(Retrieve all favorites)</code>
 
 #### Update
 
